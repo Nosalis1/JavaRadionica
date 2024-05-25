@@ -7,6 +7,7 @@
 ---
 
 <h3 align="center">Prerequisites</h3>
+
 - Java 11 or higher
 - JavaFX SDK
 
@@ -32,7 +33,7 @@ cd Editor
 <h3 align="center">Project Structure</h3>
 
 ```
-ImageEditor/
+Editor/
 │
 ├── src/
 │   ├── main/
