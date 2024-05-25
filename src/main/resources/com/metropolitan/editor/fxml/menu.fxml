@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
-</AnchorPane>
+<MenuBar xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.metropolitan.editor.controllers.MenuController">
+    <Menu text="File">
+        <MenuItem text="Open" onAction="#handleOpenButtonAction"/>
+        <MenuItem text="Save" onAction="#handleSaveButtonAction"/>
+        <MenuItem text="Exit" onAction="#handleExitButtonAction"/>
+    </Menu>
+    <Menu text="Help">
+        <MenuItem text="About" onAction="#handleAboutButtonAction"/>
+    </Menu>
+</MenuBar>

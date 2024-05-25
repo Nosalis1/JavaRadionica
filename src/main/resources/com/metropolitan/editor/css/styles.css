@@ -1,0 +1,52 @@
+/* styles.css */
+.root {
+    -fx-background-color: #f8f9fa;
+}
+
+.label {
+    -fx-font-size: 14px;
+}
+
+.menu-bar {
+    -fx-background-color: #336699;
+}
+
+.menu-bar .menu {
+    -fx-text-fill: white;
+}
+
+#content-pane {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #ff00ff;
+    -fx-border-width: 2px;
+}
+
+#layer-box {
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+
+#layer-box-controls {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+
+#layer-box-properties {
+    -fx-alignment: center;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+}
+
+#tool-box {
+    -fx-border-color: #dee2e6;
+    -fx-border-width: 2px;
+    -fx-alignment: center;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
