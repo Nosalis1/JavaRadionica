@@ -11,14 +11,17 @@
 - JavaFX SDK
 
 <h3 align="center">Running the Application</h3>
+
 1.Clone the repository:
 ```bash
 git clone https://github.com/yourusername/ImageEditor.git
 ```
+
 2.Navigate to the project directory:
 ```bash
 cd ImageEditor
 ```
+
 3.Build and run the application:
 ```bash
 ./gradlew run
@@ -27,6 +30,7 @@ cd ImageEditor
 ---
 
 <h3 align="center">Project Structure</h3>
+
 ```
 ImageEditor/
 │
@@ -70,6 +74,7 @@ ImageEditor/
 ├── README.md                                       // Documentation file for project description and usage instructions
 └── .gitignore                                      // Git configuration file to ignore unnecessary files and directories
 ```
+
 <p align="center">
 
 </p>
