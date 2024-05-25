@@ -14,12 +14,12 @@
 
 1.Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ImageEditor.git
+git clone https://github.com/Nosalis1/JavaRadionica.git
 ```
 
 2.Navigate to the project directory:
 ```bash
-cd ImageEditor
+cd Editor
 ```
 
 3.Build and run the application:
